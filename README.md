@@ -18,7 +18,7 @@ size limit for `.txt` attachments on the Ubuntu Forums.
 
 You can either run it from the command line with these commands:
 
-    wget -N -t 5 -T 10 https://github.com/UbuntuForums/wireless-info/raw/master/wireless-info && \
+    wget -N -t 5 -T 10 https://github.com/bdarvind/Ubuntu-WiFi-Info/raw/master/wireless-info && \
     chmod +x wireless-info && \
     ./wireless-info
 
@@ -32,9 +32,10 @@ Or, if `zenity` or `kdialog` is installed, run it from the GUI this way:
 2. Make it executable
 3. Run it from your file browser or a Run dialog
 
-[1]: https://github.com/UbuntuForums/wireless-info/raw/master/wireless-info
+[1]: https://github.com/bdarvind/Ubuntu-WiFi-Info/raw/master/wireless-info
 
 ### Disconnected
 
 If you cannot connect to the internet with the affected system, including via a wired connection,
 you will have to move files between it and a system connected to the internet.
+
